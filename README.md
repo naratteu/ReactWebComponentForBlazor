@@ -26,6 +26,8 @@ dotnet watch # href /Test
 
 실행된 블레이저 웹앱의 `/Test`경로에 접속하여 `WebComponent`로 정적출력 된 리액트컴포넌트와 블레이저간의 양방향 바인딩효과를 확인할 수 있습니다.
 
+https://github.com/user-attachments/assets/b00622d0-c6b9-472d-b873-5fad8e50f65b
+
 ## Todo
 
 - `onchange` 등의 알려진 이벤트 핸들러 뿐만이 아닌 커스텀 이벤트 핸들러로도 바인딩이 가능해야 합니다.
