@@ -4,6 +4,8 @@
 
 <Hello />
 
-<Counter />
-
-<Counter />
+<Counter @bind-Value=i />
+<input @bind=i @bind:event="oninput"/>
+@code {
+    int i;
+}

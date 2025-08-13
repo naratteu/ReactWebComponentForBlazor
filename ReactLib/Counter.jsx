@@ -1,10 +1,7 @@
-import { useState } from 'react'
-
-export default () => {
-  const [count, setCount] = useState(0)
+export default ({ value, onchange }) => {
   return <div>
-    <button onClick={() => setCount(count => count + 1)}>
-      count is {count}
+    <button onClick={onchange}>
+      binding count is {value}
     </button>
   </div>
 }

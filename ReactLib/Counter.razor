@@ -1,1 +1,5 @@
-﻿<wc-counter />
+﻿<wc-counter @bind:get=Value @bind:set='i => ValueChanged.InvokeAsync(i + 1)' />
+@code {
+    [Parameter] public int Value { get; set; }
+    [Parameter] public EventCallback<int> ValueChanged { get; set; }
+}
