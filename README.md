@@ -36,7 +36,9 @@ https://github.com/user-attachments/assets/b00622d0-c6b9-472d-b873-5fad8e50f65b
 ## Potential
 
 - `react` 뿐만 아니라 `stencil`, `lit` 등 모든 `WebComponent` 지원 생태계로 블레이저를 확장.
+- `.jsx` 말고 `.tsx`, `.mdx` 도 넣어보기
 - 블레이저 참조용 리액트 프로젝트에 반복적으로 작성될 코드에 대한 소스생성기 혹은 Sdk 까지 구성할수 있지 않을지?
+    - https://www.npmjs.com/package/vite-plugin-codegen
 
 ## Thanks
 
